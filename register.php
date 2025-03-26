@@ -7,19 +7,23 @@ require 'templates/header.php';
     <form id="registerForm" action="process_register.php" method="POST" enctype="multipart/form-data">
         <div class="form-group">
             <label for="username">Username</label>
-            <input type="text" class="form-control" id="username" name="username" required>
+            <input type="text" class="form-control" id="username" name="username" >
+            <span class="text-danger" id="usernameError"></span>
         </div>
         <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" name="email" required>
+            <input type="email" class="form-control" id="email" name="email" >
+            <span class="text-danger" id="emailError"></span>
         </div>
         <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" class="form-control" id="password" name="password" required>
+            <input type="password" class="form-control" id="password" name="password" >
+            <span class="text-danger" id="passwordError"></span>
         </div>
         <div class="form-group">
             <label for="file">Upload File</label>
-            <input type="file" class="form-control" id="file" name="file">
+            <input type="file" class="form-control" id="file" name="file" >
+            <span class="text-danger" id="fileError"></span>
         </div>
         <button type="submit" class="btn btn-primary">Register</button>
         <button type="button" class="btn btn-success" id="loginPage">Login</button>

@@ -3,3 +3,6 @@
 [2025-03-13 05:18:30] FAILED LOGIN ATTEMPT: Email 'navin@gmail.com' from IP: ::1 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'navinadmin' for key 'users.username'
 [2025-03-13 05:20:19] FAILED LOGIN ATTEMPT: Email 'admin@gmail.com' from IP: ::1 - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admintest' for key 'users.username'
 [2025-03-13 05:49:52] FAILED LOGIN ATTEMPT: Email 'admin@gmail.com' from IP: ::1 - Invalid email or password.
+[2025-03-24 16:38:20] FAILED LOGIN ATTEMPT: Email 'Navin.Tatikonda@gmail.com' from IP: ::1 - Invalid email or password.
+[2025-03-26 14:27:11] FAILED LOGIN ATTEMPT: Email 'Navin.Tatikonda@gmail.com' from IP: ::1 - File upload failed.
+[2025-03-26 14:32:09] FAILED LOGIN ATTEMPT: Email '' from IP: ::1 - All fields are required.

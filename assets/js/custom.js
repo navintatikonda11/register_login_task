@@ -1,15 +1,10 @@
 
 $(document).ready(function () {
 
-    $('#registerForm').on('submit', function (e) {
-        // let password = $('#password').val();
-        // if (password.length < 8) {
-        //     alert('Password must be at least 8 characters long.');
-        //     e.preventDefault();
-        // }
+    $('#registerForm').on('submit', function (e) { 
 
         $(".text-danger").text(""); // Clear previous error messages
-        let isValid = true;
+        let isValid = true; 
 
         let username = $("#username").val().trim();
         let email = $("#email").val().trim();
